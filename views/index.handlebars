@@ -1,0 +1,45 @@
+<h1>Burgers!</h1>
+
+<img id="dancing-burger"src= "https://cdn.dribbble.com/users/6360/screenshots/3586924/burger.gif">
+
+<div id="burger-div-one">
+<h2>Burgers that are not eatan!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#unless eatan}}
+      {{> burgers/burger-block eat=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+</div>
+
+<div id="burger-div-two">
+<h2>Burgers that are eatan!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if eatan}}
+      {{> burgers/burger-block eat=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+</div>
+<div id="burger-div-three">
+<h2>Add a Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ca">Burger Name:</label>
+    <input type="text" id="ca" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="eatan">Eatan?</label><br>
+    <input type="radio" name="eatan" value="1" checked> eatan!<br>
+    <input type="radio" name="eatan" value="0"> not eatan
+  </div>
+
+  <button type="submit">Add Burger</button>
+</form>
+</div>
