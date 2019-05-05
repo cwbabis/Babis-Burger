@@ -1,7 +1,7 @@
 {
   "name": "Burger",
   "version": "1.0.0",
-  "description": "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.",
+  "description": "Babis Burger! is a restaurant app that lets users input the names of burgers they'd like to eat and then digest.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/cwbabis/Burger.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Christopher Babis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cwbabis/Burger/issues"
