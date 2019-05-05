@@ -3,7 +3,7 @@ li {
   margin: 5px;
   list-style: none;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Permanent Marker', cursive;
   font-size: 24px;
 }
 
@@ -22,26 +22,83 @@ li {
 }
 
 body {
-  background-color: #ff5e4a !important;
-  background-image: url('https://img.thedailybeast.com/image/upload/v1498619797/170627-rothabum-burger-tease_h4i8gz.gif');
-  background-size: cover;
+  font-family: 'Permanent Marker', cursive;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: black !important;
+  background-image: url('https://media.gq.com/photos/59447d75165c2959e55471d0/4:3/w_1728,h_1296,c_limit/vegas-best-burgers.gif');
+  background-size: contain;
   background-repeat: no-repeat;
-  
   height: 100vh;
   padding: 0;
   margin: 0;
 }
-.jumbotron{
-  background: none;
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.5);
   border-style: solid;
-  border-color: #ff5e4a;
   border: 5px;
 }
 
 h2 {
+  font-family: 'Permanent Marker', cursive;
   color: white;
-}
-h1{
-  color: #ffca24;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
 }
 
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  font-size: 72px;
+  font-family: 'Permanent Marker', cursive;
+  color: #A40700;
+}
+
+#eatDiv {
+  align-content: center;
+  border-color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border: 5px;
+}
+
+#digestDiv {
+  border-color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border: 5px;
+}
+
+label, #redText {
+  color: #A40700;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* 
+btn-danger{
+  background-color: #A40700 !important;
+} */
+
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited, .btn-danger:focus {
+  background-color: #A40700 !important;
+  padding: 5px;
+}
+
+.btn-light, .btn-light:hover, .btn-light:active, .btn-light:visited, .btn-light:focus {
+  background-color: #F8F9FA!important;
+ 
+  padding: 5px;
+}
+
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited, .btn-success:focus {
+  color: black;
+  background-color: #DBAC00!important;
+  border-color: black;
+  padding: 5px;
+}
+p{
+  color: white;
+}

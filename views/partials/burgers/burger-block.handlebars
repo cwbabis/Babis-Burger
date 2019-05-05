@@ -2,8 +2,9 @@
 	{{name}}
 
 	<button class="change-eat btn btn-danger" data-id="{{id}}" data-neweat="{{eat}}">
-		{{#if eat}}CHOW DOWN!{{else}}THROW UP!{{/if}}
+		{{#if eat}}CHOW DOWN!
+		{{else}}THROW UP!{{/if}}
 	</button>
-
+	<br>
 	<button class="btn btn-light delete-burger" data-id="{{this.id}}">DIGEST AND DELETE!</button>
 </li>
