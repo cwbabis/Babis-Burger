@@ -2,6 +2,9 @@ li {
   padding: 5px;
   margin: 5px;
   list-style: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
 }
 
 .label {
@@ -19,46 +22,26 @@ li {
 }
 
 body {
-  background-color: #8B3D14 !important;
+  background-color: #ff5e4a !important;
+  background-image: url('https://img.thedailybeast.com/image/upload/v1498619797/170627-rothabum-burger-tease_h4i8gz.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.jumbotron{
+  background: none;
+  border-style: solid;
+  border-color: #ff5e4a;
+  border: 5px;
 }
 
-#dancing-burger {
-  height: 600px;
-  width: 450px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
+h2 {
+  color: white;
 }
-
 h1{
-  color: white;
-  text-align: center
-}
-h2{
-  color: white;
-  text-align: center
+  color: #ffca24;
 }
 
-#burger-div-one{
-  justify-content: center;
-  display: grid;
-  grid-template-rows: 100px 300px; 
-  float: left;
-  width: 33%;
-}
-#burger-div-two{
-  justify-content: center;
-  display: grid;
-  grid-template-rows: 100px 300px; 
-  float: left;
-  width: 33%;
-}
-#burger-div-three{
-  justify-content: center;
-  display: grid;
-  grid-template-rows: 100px 300px; 
-  float:left;
-  width: 33%;
-}

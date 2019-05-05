@@ -1,31 +1,34 @@
-<h1>Burgers!</h1>
+<div class="container">
+  <div class="jumbotron border">
+    <h1>Burgers! Burgers!! Burgers!!!</h1>
+  </div>
 
-<img id="dancing-burger"src= "https://cdn.dribbble.com/users/6360/screenshots/3586924/burger.gif">
+  <div class="row">
 
-<div id="burger-div-one">
-<h2>Ready To eat!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#unless eatan}}
-      {{> burgers/burger-block eat=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
+    <div class="col-sm-3">
+      <h2>Ready To eat!</h2>
+      <ul>
+        {{#each burgers}}
+        {{#unless eatan}}
+        {{> burgers/burger-block eat=true}}
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
+    <div class="col-sm-3 offset-sm-6">
+      <h2>Ready To digest!</h2>
+      <ul>
+        {{#each burgers}}
+        {{#if eatan}}
+        {{> burgers/burger-block eat=false}}
+        {{/if}}
+        {{/each}}
+      </ul>
+    </div>
+  </div>
 </div>
 
-<div id="burger-div-two">
-<h2>Ready To digest!</h2>
 
-<ul>
-  {{#each burgers}}
-    {{#if eatan}}
-      {{> burgers/burger-block eat=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-</div>
-<div id="burger-div-three">
 <h2>Add Your Own Burger</h2>
 <form class="create-form">
 
