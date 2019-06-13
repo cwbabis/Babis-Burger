@@ -35,4 +35,4 @@ This full-stack application utilizes the Model/View/Controller (MVC) design patt
 
 ## Here is a preview of the app:
 
-![](public/assets/img/babisburger.gif "gif")
+![](public/assets/img/babisburger.png "png")
